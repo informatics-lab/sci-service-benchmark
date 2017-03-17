@@ -127,7 +127,7 @@ def average_for_month_and_region(month, region, stash, files):
 
 # Run this thing....
 log('Let us begin...')
-skip = 100
+skip = 10
 filename_filter = 'prods_op_mogreps-g_2016%02d' % month
 files = [os.path.join(dir_path, f) for f in os.listdir(dir_path) if f.find(filename_filter) == 0][::skip]
 log("processing 1 in every %s files giving %d files to process in dir %s" % (skip, len(files), dir_path))

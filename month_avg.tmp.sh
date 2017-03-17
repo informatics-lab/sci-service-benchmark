@@ -3,7 +3,6 @@
 #SBATCH --mem=8000
 #SBATCH --ntasks=4
 #SBATCH --output=/home/h04/tmccaie/sci-service-benchmark-D-12-out.log
-#SBATCH --error=/home/h04/tmccaie/sci-service-benchmark-D-12-error.log
 #SBATCH --time=360
 #SBATCH --mail-user=theo.mccaie@metoffice.gov.uk
 #SBATCH --mail-type=ALL
